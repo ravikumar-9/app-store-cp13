@@ -1,0 +1,17 @@
+/* Write your CSS here */
+.app-card {
+  background-color: #ffffff;
+  padding: 7px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 230px;
+  height: 140px;
+  margin: 5px;
+  border-radius: 5px;
+  justify-content: center;
+}
+.app-image {
+  height: 70px;
+  width: 70px;
+}

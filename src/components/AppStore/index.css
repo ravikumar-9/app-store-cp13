@@ -1,0 +1,58 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(#fff1eb, #ace0f9);
+  height: 100vh;
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.app-store-heading {
+  font-weight: bold;
+  font-size: 30px;
+  font-family: 'roboto';
+  color: #1e293b;
+  text-align: center;
+  align-self: center;
+}
+.search-bar-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 200px;
+  padding: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #7b8794;
+  border-radius: 4px;
+  background-color: transparent;
+  align-self: center;
+}
+.search-bar {
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+.search-icon {
+  height: 20px;
+  width: 24px;
+}
+.tabs-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0px;
+  list-style-type: none;
+  align-self: center;
+}
+.apps-list-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: transparent;
+  margin-left: 10px;
+  margin-right: 10px;
+  max-width: 900px;
+}
